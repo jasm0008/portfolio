@@ -56,7 +56,7 @@ html{
 
 
 /***********************************************************
-                            MOBILE
+                    START OF MOBILE CODING
 ***********************************************************/
 .logoimg{
 	width: 30%;
@@ -82,3 +82,66 @@ h3{
         font-size: 100%;
         font-weight: bold;
 }
+
+/***********************************************************
+							NAV
+***********************************************************/
+ul li a{
+	text-decoration-style: none;
+}
+
+
+.companylogo{
+    width: 150px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li a:hover {
+    background-color: #ff0000;
+    /* adds margin with the colour set around the texts */
+    margin-left: 0.5px;
+    margin-right: 0.5px;
+
+  }
+
+li a{
+    display: block;
+    color: rgb(113, 94, 147);
+}
+
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    order: 1;
+    text-align: center;
+    position: relative;
+
+    padding: 20px;
+}
+
+nav a{
+    margin:0 0;/* Xpx on the top and bottom, Xpx on the left and right*/
+    text-decoration: none;/* removes the underline default from the links */
+}
+
+
+nav ul {
+    overflow: hidden;
+}
+
+/***********************************************************
+                    END OF MOBILE CODING
+***********************************************************/

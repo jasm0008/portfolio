@@ -92,7 +92,7 @@ ul li a{
 
 
 .companylogo{
-    width: 150px;
+    width: 80%;
 }
 
 ul{
@@ -183,7 +183,7 @@ nav ul {
     @import url('https://fonts.googleapis.com/css2?family=Open+San&display=swap');
     .container{
     width: 1200px;
-    background: rgb(147, 147, 147);
+    background: rgb(70, 70, 70);
     font-family: 'Open Sans' , sans-serif;
     }
 
@@ -199,7 +199,7 @@ nav ul {
                             NAV
 ***********************************************************/
 
-.companylogo{
+.logoimg{
     width: 200px;
     order: 2;
     background-color: transparent;

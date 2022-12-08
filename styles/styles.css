@@ -182,8 +182,8 @@ nav ul {
 
     @import url('https://fonts.googleapis.com/css2?family=Open+San&display=swap');
     .container{
-    width: 1200px;
-    background: rgb(70, 70, 70);
+    width: 1500px;
+    /* background: rgb(70, 70, 70); */
     font-family: 'Open Sans' , sans-serif;
     }
 

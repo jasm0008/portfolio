@@ -103,7 +103,7 @@ ul{
 }
 
 li a:hover {
-    background-color: #ff0000;
+    background-color: #ffffff;
     /* adds margin with the colour set around the texts */
     margin-left: 0.5px;
     margin-right: 0.5px;
@@ -145,3 +145,96 @@ nav ul {
 /***********************************************************
                     END OF MOBILE CODING
 ***********************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+                    DESKTOP
+**************************************************/
+@media only screen and (min-width: 760px){
+
+    html{
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    h1{
+        font-size: 250%;
+        font-weight: bold;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+San&display=swap');
+    .container{
+    width: 1200px;
+    background: rgb(147, 147, 147);
+    font-family: 'Open Sans' , sans-serif;
+    }
+
+    .container{
+    /* centers the childrens from the class using-viewport */
+    margin-left: auto;
+    margin-right: auto;
+    /* percent responds to the element's parent, in this case the element with the class .using-viewport */
+    background-position: center;
+    }
+
+/***********************************************************
+                            NAV
+***********************************************************/
+
+.companylogo{
+    width: 200px;
+    order: 2;
+    background-color: transparent;
+    z-index: 5;
+}
+
+ul{
+    margin: -25px;
+}
+nav li a{
+    display: inline;
+    position: relative;
+    list-style: none;
+}
+
+nav{
+    z-index: 7;
+}
+
+header{
+    padding: 0;
+    padding-bottom: 0;
+}
+
+/******************************
+            ANIMATIONS
+*******************************/
+
+/******************************
+        END OF ANIMATIONS
+*******************************/
+
+/***********************************************************
+                        END OF NAV
+***********************************************************/
+
+
+}

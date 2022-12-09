@@ -157,7 +157,8 @@ nav ul {
 /* Style the container/contact section */
 .contact-container {
 	border-radius: 5px;
-	background-color: #3e3e3e;
+
+	/* background-color: #3e3e3e; */
 	padding: 10px;
   }
   
@@ -165,8 +166,15 @@ nav ul {
   .column {
 	float: left;
 	width: 50%;
+    
 	margin-top: 6px;
-	padding: 20px;
+	padding: 10px;
+  }
+
+  #fname, #lname, #subject, #country{
+    /* display block place it at the bottom of the text applied before the input label */
+    display: block;
+    width: 317px;
   }
   
   /* Clear floats after the columns */
@@ -300,7 +308,9 @@ header{
   /* Style the container/contact section */
   .contact-container {
 	border-radius: 5px;
-	background-color: #3e3e3e;
+
+
+	/* background-color: #3e3e3e; */
 	padding: 10px;
   }
   

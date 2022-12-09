@@ -174,7 +174,17 @@ nav ul {
   #fname, #lname, #subject, #country{
     /* display block place it at the bottom of the text applied before the input label */
     display: block;
-    width: 317px;
+    width: 320px;
+  }
+
+  #form_submit{
+    width: 100px;
+    height: 25px;
+    margin-top: 5%;
+    background-color: rgb(113, 94, 147);
+    border-color: transparent;
+    
+    color: rgb(255, 255, 255);
   }
   
   /* Clear floats after the columns */

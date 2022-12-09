@@ -158,6 +158,11 @@ nav ul {
 /***********************************************************
                         ABOUT PAGE
 ***********************************************************/
+.about-container{
+  /* since this is a container so adding this adds spaces to the user screen to whatever is inside the container */
+  padding: 20px;
+}
+
 .about-myself{
   border-radius: 5px;
 	background-color: #3e3e3e;
@@ -331,6 +336,11 @@ header{
 /***********************************************************
                         ABOUT PAGE
 ***********************************************************/
+
+
+
+
+
 .about-myself{
   border-radius: 5px;
 	background-color: #3e3e3e;

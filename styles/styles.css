@@ -3,6 +3,10 @@
    License: none (public domain)
 */
 
+/***********************************************************
+                      CSS RESET CODE
+***********************************************************/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -87,9 +91,9 @@ h3{
         font-weight: bold;
 }
 
-/***********************************************************
-							NAV
-***********************************************************/
+/*******************
+				NAV
+*******************/
 ul li a{
 	text-decoration-style: none;
 }
@@ -145,14 +149,18 @@ nav a{
 nav ul {
     overflow: hidden;
 }
+/*******************
+		  END OF NAV
+*******************/
+
 /***********************************************************
-						END OF NAV
+							          CONTACT PAGE
 ***********************************************************/
 
 
-/***********************************************************
-							FORMS
-***********************************************************/
+/*********************
+				FORMS
+*********************/
 .map{
     width: 325px;
     height: 300px;
@@ -175,10 +183,14 @@ nav ul {
 	padding: 10px;
   }
 
-  #fname, #lname, #subject, #country{
+  #fname, #lname, #subject, #ename{
     /* display block place it at the bottom of the text applied before the input label */
     display: block;
     width: 320px;
+  }
+
+  #country{
+    display: block;
   }
 
   #form_submit{
@@ -198,9 +210,15 @@ nav ul {
 	clear: both;
   }
 
+/*********************
+			END OF FORMS
+*********************/
+
 /***********************************************************
-						END OF FORMS
+							        END CONTACT PAGE
 ***********************************************************/
+
+
 
 
 /***********************************************************

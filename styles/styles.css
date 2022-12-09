@@ -26,11 +26,10 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-
 }
 
 /* since bootstrap confuses with the reset I had to make a selection of different */
-h1,h2,h3,h4,h5,h6,p,label{
+h1,h2,h3,h4,h5,h6,p,label, blockquote,dl, dt, dd, ol, ul, li{
 color: rgb(255, 255, 255) !important;
 }
 

@@ -293,10 +293,11 @@ header{
     height: 500px;
 }
 
-#fname, #lname, #subject, #country{
+#fname, #lname, #subject, #country, #ename{
   /* display block place it at the bottom of the text applied before the input label */
   display: block;
   width: 700px;
+  margin-bottom: 5px;
 }
 
 * {

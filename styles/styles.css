@@ -212,8 +212,12 @@ nav ul {
 				FORMS
 *********************/
 .map{
-    width: 325px;
+    width: 350px;
     height: 300px;
+}
+
+.contact-container div h2{
+  margin-top: -25px;
 }
 
 /* Style the container/contact section */
@@ -237,6 +241,11 @@ nav ul {
     /* display block place it at the bottom of the text applied before the input label */
     display: block;
     width: 320px;
+  }
+
+  /* GET BACK TO IT AFTER DOING OTHER PAGES */
+  .column form{
+ 
   }
 
   #country{
@@ -399,7 +408,7 @@ header{
   /* display block place it at the bottom of the text applied before the input label */
   display: block;
   width: 500px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 * {
@@ -436,7 +445,6 @@ header{
 	/* background-color: #3e3e3e; */
 	padding: 10px;
   }
-  
   /* Create two columns that float next to eachother */
   .column {
 	float: left;

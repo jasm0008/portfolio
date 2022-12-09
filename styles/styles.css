@@ -26,8 +26,14 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	color: white !important;
+
 }
+
+/* since bootstrap confuses with the reset I had to make a selection of different */
+h1,h2,h3,h4,h5,h6,p,label{
+color: rgb(255, 255, 255) !important;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -386,14 +392,14 @@ header{
 			CONTACT FORM
 *******************************/
 .map{
-    width: 700px;
+    width: 550px;
     height: 500px;
 }
 
 #fname, #lname, #subject, #country, #ename{
   /* display block place it at the bottom of the text applied before the input label */
   display: block;
-  width: 700px;
+  width: 500px;
   margin-bottom: 5px;
 }
 

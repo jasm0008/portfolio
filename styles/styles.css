@@ -194,7 +194,7 @@ nav ul {
 	background-color: #3e3e3e;
   padding: 5%;
 } 
-
+ 
 
 
 /***********************************************************
@@ -233,7 +233,7 @@ nav ul {
 	float: left;
 	width: 50%;
     
-	margin-top: 6px;
+
 	padding: 10px;
   }
 
@@ -257,7 +257,7 @@ nav ul {
   #form_submit{
     width: 100px;
 
-    margin-top: 5%;
+    margin-top: 2%;
     background-color: rgb(113, 94, 147);
     border-color: transparent;
     
@@ -450,6 +450,12 @@ header{
 	background-color: #45a049;
   }
   
+  .column-two{
+
+    position:absolute;
+    left: 875px;
+  }
+
   /* Style the container/contact section */
   .contact-container {
 	border-radius: 5px;
@@ -470,7 +476,8 @@ header{
   /* Clear floats after the columns */
   .row:after {
 	content: "";
-	display: table;
+  display: -ms-flexbox;
+	/* display: table; */
 	clear: both;
   }
   

@@ -102,7 +102,7 @@ h3{
 				NAV
 *******************/
 ul li a{
-	text-decoration-style: none;
+	text-decoration: none;
 }
 
 
@@ -139,12 +139,13 @@ nav li{
     display: inline;
 }
 
+
 nav li a{
     order: 1;
     text-align: center;
     position: relative;
 
-    text-decoration-style: none;
+    text-decoration: none;
 
     padding: 20px;
 }

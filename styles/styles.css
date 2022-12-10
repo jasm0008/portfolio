@@ -166,10 +166,11 @@ nav ul {
 /***********************************************************
                         HOME PAGE
 ***********************************************************/
+
+/* this creates spaces between the border of the page */
 .welcome-container{
   margin: auto;
-  width: 50%;
-  padding: 70px;
+  padding: 40px;
 
 }
 

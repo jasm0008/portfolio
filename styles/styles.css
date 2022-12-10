@@ -174,8 +174,11 @@ nav ul {
 
 }
 
-
-
+.about-website{
+border-radius: 5px;
+background-color: #3e3e3e;
+padding: 5%;
+}
 
 
 
@@ -188,7 +191,11 @@ nav ul {
                         GALLERY PAGE
 ***********************************************************/
 
-
+#carouselExampleIndicators{
+  border-radius: 5px;
+background-color: #acacac;
+padding: 3%;
+}
 
 
 

@@ -311,7 +311,10 @@ nav ul {
 
 
 
-
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 12px}
+}
 
 /*************************************************
                     DESKTOP
@@ -455,11 +458,12 @@ header{
 	/* background-color: #3e3e3e; */
 	padding: 10px;
   }
+
   /* Create two columns that float next to eachother */
   .column {
 	float: left;
 	width: 50%;
-	margin-top: 6px;
+	margin-top: 10px;
 	padding: 20px;
   }
   
@@ -505,6 +509,7 @@ header{
 /******************************
         END OF ANIMATIONS
 *******************************/
+
 
 /***********************************************************
                         END OF NAV

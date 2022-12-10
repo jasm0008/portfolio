@@ -144,6 +144,8 @@ nav li a{
     text-align: center;
     position: relative;
 
+    text-decoration-style: none;
+
     padding: 20px;
 }
 
@@ -229,7 +231,7 @@ nav ul {
 }
 
 .contact-container div h2{
-  margin-top: -25px;
+  margin-top: -70px;
 }
 
 /* Style the container/contact section */
@@ -269,10 +271,10 @@ nav ul {
   #form_submit{
     width: 100px;
 
-    margin-top: 2%;
+    margin-top: 5px;
     background-color: rgb(113, 94, 147);
     border-color: transparent;
-    
+    border-radius: 5px;
     color: rgb(255, 255, 255);
   }
   
@@ -463,7 +465,7 @@ header{
   input[type=submit] {
 	background-color: #04AA6D;
 	color: white;
-	padding: 12px 20px;
+	padding: 1px 20px;
 	border: none;
 	cursor: pointer;
   }
@@ -480,11 +482,12 @@ header{
 
   /* Style the container/contact section */
   .contact-container {
-	border-radius: 5px;
+	/* border-radius: 5px;
 
 
-	/* background-color: #3e3e3e; */
-	padding: 10px;
+	background-color: #3e3e3e;
+    background-size: 300px 100px;
+	padding: 10px; */
   }
 
   /* Create two columns that float next to eachother */
